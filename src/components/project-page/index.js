@@ -27,8 +27,12 @@ export default class ProjectPage extends React.Component {
       <div className="ProjectPage">
         <h1>{this.state.project.name}</h1>
 
-        <div className="description">
-          {this.state.project.description}
+        <div>
+          <img src={this.state.project.image} alt="screenshot cssgrid" className="project-image" />
+        </div>
+
+        <div>
+          <p>{this.state.project.description}</p>
         </div>
 
       </div>

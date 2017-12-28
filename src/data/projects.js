@@ -5,6 +5,7 @@ export default [
     description: "A responsive site using CSS Grid",
     category: "code",
     image: "/images/cssgriddesktop.png"
+    // image: "/images/cssgriddesktop.png"
   }, {
     id: "hero",
     name: "Hero",
