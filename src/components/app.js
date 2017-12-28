@@ -6,7 +6,7 @@ import Navigation from "./navigation"
 // import Start from "./start"
 import Startimage from "./startimage"
 import Category from "./category"
-import ProjectPreview from "./project-preview"
+import ProjectPreview from "./projectpreview"
 import ProjectPage from "./project-page"
 
 class App extends React.Component {
@@ -18,20 +18,20 @@ class App extends React.Component {
         {/* <ProjectPreview /> */}
         {/* <Start /> */}
         {/* <Category /> */}
-        {/* <ProjectPage /> */}
 
         <div className="App">
 
           <div>
             {/* <Startimage /> */}
             <Navbutton />
+            {/* <ProjectPage /> */}
 
             {/* <Route path="/" exact component={Start} /> */}
             {/* <Route path="/" exact component={Startimage} /> */}
             <Route path="/navigation" component={Navigation} />
             <Route path="/category" component={Category} />
-            <Route path="/projectpreview" component={ProjectPreview} />
-            <Route path="/project" component={ProjectPage} />
+            {/* <Route path="/projectpreview" component={ProjectPreview} /> */}
+            <Route path="/projects/:id" component={ProjectPage} />
 
           </div>
         </div>

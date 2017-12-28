@@ -12,7 +12,7 @@ export default class ProjectPage extends React.Component {
   }
 
   componentDidMount() {
-    const project = projects.find(p => (p.id === this.prop.match.params.id))
+    const project = projects.find(p => (p.id === this.props.match.params.id))
     this.setProject(project)
   }
 
@@ -25,9 +25,12 @@ export default class ProjectPage extends React.Component {
   render() {
     return (
       <div className="ProjectPage">
-        <div className="projectpage-inner">
-          <h1>this.state.project.name</h1>
+        <h1>{this.state.project.name}</h1>
+
+        <div className="description">
+          {this.state.project.description}
         </div>
+
       </div>
 
     )
