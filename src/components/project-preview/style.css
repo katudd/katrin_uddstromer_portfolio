@@ -1,0 +1,13 @@
+.ProjectPreview {
+  padding-left: 5%;
+  padding-top: 5%;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.ProjectPreview .inner {
+  width: 90%;
+  padding: 20px;
+  background: #0055ff;
+}

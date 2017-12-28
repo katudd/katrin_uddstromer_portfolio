@@ -1,0 +1,39 @@
+/*.Navbutton {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
+.button-right{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: black;
+  display: block;
+  position: fixed;
+  right: 40px;
+  z-index: 5;
+}
+
+@media (max-width: 620px){
+  .button-right{
+    bottom: 40px;
+  }
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .button-right{
+    bottom: 40px;
+  }
+
+}
+
+@media (min-width: 801px){
+  .button-right{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
