@@ -17,6 +17,14 @@
   z-index: 5;
 }
 
+.Navbutton a {
+  text-decoration: none;
+}
+
+.Navbutton a:hover {
+  text-decoration: line-through;
+}
+
 @media (max-width: 620px){
   .button-right{
     bottom: 40px;
@@ -34,6 +42,15 @@
   .button-right{
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .about{
+    position: fixed;
+    top: 43%;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    font-size: 2em;
+    line-height: 2em;
   }
 
 }

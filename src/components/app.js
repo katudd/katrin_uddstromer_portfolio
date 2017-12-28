@@ -6,7 +6,7 @@ import Navigation from "./navigation"
 // import Start from "./start"
 import Startimage from "./startimage"
 import Category from "./category"
-import ProjectPreview from "./projectpreview"
+// import ProjectPreview from "./projectpreview"
 import ProjectPage from "./project-page"
 
 class App extends React.Component {
@@ -20,10 +20,10 @@ class App extends React.Component {
         {/* <Category /> */}
 
         <div className="App">
+          <Navbutton />
 
-          <div>
+          <div className="content">
             {/* <Startimage /> */}
-            <Navbutton />
             {/* <ProjectPage /> */}
 
             {/* <Route path="/" exact component={Start} /> */}

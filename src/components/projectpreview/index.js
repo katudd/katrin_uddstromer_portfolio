@@ -10,7 +10,7 @@ export default class ProjectPreview extends React.Component {
         <div className="inner">
           <h1>{this.props.name}</h1>
           <div className="description">
-            {this.props.description}
+            <p>{this.props.description}</p>
           </div>
         </div>
       </Link>

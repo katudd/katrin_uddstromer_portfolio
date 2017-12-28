@@ -7,9 +7,12 @@ export default class Navbutton extends React.Component {
   render() {
     return (
       <div className="Navbutton">
-        <div className="button-right">
-          <Link to="/navigation">navbutton</Link>
+        <button className="button-right"><Link to="/navigation">Navigation</Link></button>
+
+        <div className="about">
+          <Link to="/about">About</Link>
         </div>
+
       </div>
     )
   }
