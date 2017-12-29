@@ -1,51 +1,71 @@
-/*.Navbutton {
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}*/
+
 
 .button-right{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #000;
   display: block;
   position: fixed;
-  right: 40px;
+  right: 30px;
+  bottom: 30px;
   z-index: 5;
+  border: none;
 }
 
-.Navbutton a {
+.navbutton-span{
+  color: #000;
+  font-size: 2.4em;
   text-decoration: none;
 }
 
-.Navbutton a:hover {
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover {
   text-decoration: line-through;
 }
 
+.about{
+  position: fixed;
+  font-size: 1.2em;
+  line-height: 0.5;
+}
+
 @media (max-width: 620px){
-  .button-right{
+  .about{
     bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
   }
+
 }
 
 @media (min-width:621px) and (max-width:800px){
   .button-right{
+    right: 40px;
     bottom: 40px;
+  }
+  
+  .about{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
 }
 
 @media (min-width: 801px){
   .button-right{
+    width: 80px;
+    height: 80px;
+    right: 40px;
     top: 50%;
     transform: translateY(-50%);
   }
 
   .about{
-    position: fixed;
     top: 43%;
     transform: translateY(-50%);
     transform: rotate(90deg);

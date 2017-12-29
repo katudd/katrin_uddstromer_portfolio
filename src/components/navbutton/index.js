@@ -7,8 +7,7 @@ export default class Navbutton extends React.Component {
   render() {
     return (
       <div className="Navbutton">
-        <button className="button-right"><Link to="/navigation">Navigation</Link></button>
-
+        <button className="button-right"><Link to="/navigation" className="navbutton-span">nav</Link></button>
         <div className="about">
           <Link to="/about">About</Link>
         </div>

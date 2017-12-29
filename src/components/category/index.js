@@ -1,8 +1,6 @@
 import React from "react"
 import projects from "data/projects"
-import ProjectPreview from "/Users/katrin_u/Documents/GitHub/Portfolio_Katrin_Uddstromer/code/src/components/projectpreview/index.js"
-// import ProjectPreview from "./projectpreview"
-import "./style.css"
+import ProjectPreview from "../projectpreview/index.js"
 
 export default class Category extends React.Component {
 

@@ -18,16 +18,6 @@
     url(/fonts/gt-walsheim-regular.woff) format('woff');
 }
 
-/*@font-face {
-  font-family: GT Walsheim;
-  font-style: normal;
-  font-weight: thin;
-  src:
-    local(gt-walsheim),
-    local(gt-walsheim-thin),
-    url(/fonts/gt-walsheim-thin.woff) format('woff');
-}*/
-
 html {
   font-family: GT Walsheim, monospace;
 }
@@ -68,4 +58,21 @@ ul {
 
 a {
   color: #fff;
+}
+
+@media (max-width: 620px){
+  .about{
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+
+}
+
+@media (min-width: 801px){
+
 }
