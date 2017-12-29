@@ -29,11 +29,11 @@ body {
   background-color: lightgrey;
 }
 
-.content{
-  width: 100vw;
+/*.content{
+  padding-left: 100px;
   min-height: 100vh;
   background-color: green;
-}
+}*/
 
 h1{
   font-size: 2em;
@@ -60,19 +60,21 @@ a {
   color: #fff;
 }
 
-@media (max-width: 620px){
-  .about{
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+/*@media (max-width: 620px){
+  .content{
+    padding: 80px 25px 1vh 25px;
   }
 
 }
 
 @media (min-width:621px) and (max-width:800px){
-
-}
+  .content{
+  padding: 80px 60px 0 60px}
+  }
 
 @media (min-width: 801px){
+  .content{
+    padding: 100px 100px 0 100px;
+  }
 
-}
+}*/

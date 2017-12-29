@@ -3,3 +3,12 @@
   height: auto;
   background-color: yellow;
 }
+
+.ProjectPage{
+  padding: 100px;
+  background-color: green;
+}
+
+.project-wrapper{
+  background-color: white;
+}

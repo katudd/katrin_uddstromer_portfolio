@@ -5,7 +5,6 @@ export default [
     description: "A responsive site using CSS Grid",
     category: "code",
     image: "/images/cssgriddesktop.png"
-    // image: "/images/cssgriddesktop.png"
   }, {
     id: "hero",
     name: "Hero",
@@ -15,6 +14,12 @@ export default [
   }, {
     id: "radio-player",
     name: "Radio Player",
+    description: "A radio player using the Sveriges Radio API",
+    category: "code",
+    image: "/images/cssgriddesktop3.png"
+  }, {
+    id: "new-stuff",
+    name: "New Stuff",
     description: "A radio player using the Sveriges Radio API",
     category: "code",
     image: "/images/cssgriddesktop3.png"
