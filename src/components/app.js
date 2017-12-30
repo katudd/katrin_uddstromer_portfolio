@@ -2,11 +2,10 @@ import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import Navbutton from "./navbutton"
 import Navigation from "./navigation"
-// import About from "./about"
+import About from "./about"
 // import Start from "./start"
 import Startimage from "./startimage"
 import Category from "./category"
-import Code from "./code"
 
 // import ProjectPreview from "./projectpreview"
 import ProjectPage from "./project-page"
@@ -32,8 +31,7 @@ class App extends React.Component {
             {/* <Route path="/" exact component={Startimage} /> */}
             <Route path="/navigation" component={Navigation} />
             <Route path="/category" component={Category} />
-            <Route path="/code" component={Code} />
-
+            <Route path="/about" component={About} />
             {/* <Route path="/projectpreview" component={ProjectPreview} /> */}
             <Route path="/projects/:id" component={ProjectPage} />
 

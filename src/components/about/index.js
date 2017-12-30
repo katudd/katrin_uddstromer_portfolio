@@ -8,7 +8,15 @@ export default class About extends React.Component {
     return (
       <div className="About">
         <div className="about-content">
-          <h1>About med</h1>
+          Hej! My name is Katrin, and I am a graphic designer living in Stockholm. Contact me at:
+        </div>
+          {/* {"\n"} */}
+        <a className="mail" href="mailto:katrin@uddstromer.se">katrin@uddstromer.se</a>
+
+
+        <div className="social-icons">
+          <a href="#" class="fa fa-linkedin" />
+          <a href="#" class="fa fa-github" />
         </div>
       </div>
 

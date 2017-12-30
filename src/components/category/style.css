@@ -1,13 +1,13 @@
 .Category {
   background-color: #5ccade;
   min-height: 100vh;
-  /*display: flex;
-  flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
 }
 
@@ -16,31 +16,35 @@
     padding: 0 15px;
   }
 
-  .title {
-    margin: 30px 20px;
+  .Category .title {
+    margin: 25px 0;
   }
 }
 
 @media (min-width:621px) and (max-width:800px){
   .Category {
-    padding: 10px 55px 60px 70px;
+    padding: 0 65px;
   }
 
-  .title {
-    margin: 25px 20px 30px 0;
+  .Category .title {
+    margin: 30px 0;
   }
 
 }
 
 @media (min-width: 801px){
   .Category {
-    padding: 20px 20px;
+    padding: 20px 100px;
   }
+
+  .Category .title {
+    margin: 30px 20px 40px 0;
+  }
+
   .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
 }

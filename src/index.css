@@ -20,6 +20,7 @@
 
 html {
   font-family: GT Walsheim, monospace;
+  /*font-size: 2vw;*/
 }
 
 body {
@@ -40,14 +41,15 @@ h1{
 }
 
 h2{
-  font-family: Oxygen Mono, monospace;
-  font-weight: light;
-  font-size: 70px;
+  font-weight: bold;
+  font-size: 3em;
 }
+
 
 p{
   font-weight: regular;
   font-size: 1em;
+  line-height: 1.7em;
 }
 
 ul {
@@ -60,21 +62,18 @@ a {
   color: #fff;
 }
 
-/*@media (max-width: 620px){
-  .content{
-    padding: 80px 25px 1vh 25px;
+.dot{
+  font-size: 1.5em;
+  line-height: 0;
+}
+@media (max-width: 620px){
+  p{
+    font-size: 1.1em;
   }
-
 }
 
 @media (min-width:621px) and (max-width:800px){
-  .content{
-  padding: 80px 60px 0 60px}
   }
 
 @media (min-width: 801px){
-  .content{
-    padding: 100px 100px 0 100px;
   }
-
-}*/

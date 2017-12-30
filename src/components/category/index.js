@@ -21,7 +21,7 @@ export default class Category extends React.Component {
                 key={project.id}
                 url={project.id}
                 name={project.name}
-                description={project.description}
+                description={project.shortdescription}
                 image={project.image} />
             ))}
           </div>
