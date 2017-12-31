@@ -1,25 +1,34 @@
 
-
 .button-right{
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-color: #FB94FB;
   display: block;
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  border-radius: 50%;
+  background-color: #FB94FB;
   z-index: 5;
   border: none;
+  width: 64px;
+  height: 64px;
+  right: 35px;
+  bottom: 30px;
 }
 
 .navbutton-span{
+  position: relative;
   font-family: GT Walsheim, monospace;
   color: #FB94FB;
-  font-size: 3em;
-  /*line-height: 0.8em;*/
   text-decoration: none;
+  right: 8px;
+  bottom: 3px;
+  font-size: 8em;
+  line-height: 0.8em;
+}
 
+.button-right:hover{
+  background-color: #fff;
+}
+
+.navbutton-span:hover{
+  color: #FB94FB;
 }
 
 .about a {
@@ -46,11 +55,6 @@
 }
 
 @media (min-width:621px) and (max-width:800px){
-  .button-right{
-    right: 40px;
-    bottom: 40px;
-  }
-
   .about{
     bottom: 30px;
     left: 50%;
@@ -63,22 +67,17 @@
   .button-right{
     width: 90px;
     height: 90px;
-    right: 50px;
+    right: 55px;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 5;
   }
 
   .navbutton-span{
-    /*font-family: GT Walsheim, monospace;
-    color: #fff;
+    right: 10px;
+    bottom: 5px;
     font-size: 12em;
     line-height: 0.8em;
-    text-decoration: none;*/
-    /*position: fixed;
-    right: -5px;
-    top: 50%;
-    transform: translateY(-50%)*/
-
   }
 
   .about{

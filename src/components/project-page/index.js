@@ -31,7 +31,7 @@ export default class ProjectPage extends React.Component {
         <div className="project-wrapper">
 
           <div>
-            <p>{this.state.project.longdescription} <span className="dot">&#x263b;</span></p>
+            <p>{this.state.project.longdescription}<span className="dot"> &#x263b;</span></p>
           </div>
 
           <div className="image">

@@ -4,6 +4,22 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  opacity: 1;
+}
+@keyframes fade-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-content, .social-icons, .mail {
+  opacity: 0;
+  animation: fade-in-bottom ease 1.5s forwards;
 }
 
 .about-content, .mail{
@@ -45,12 +61,13 @@ margin-top: 10%;
 }
 
 .fa-linkedin, .fa-github  {
-  /*background: #3B5998;*/
   color: white;
 }
 
 .social-icons{
-  margin: 15% 0 5% 15%;
+  margin-left: 15%;
+  padding-bottom: 3%;
+  padding-top: 10%;
 }
 
 
@@ -70,11 +87,16 @@ margin-top: 10%;
 
 @media (min-width: 801px){
 
-    /*.About {
-      justify-content: space-between;
-    }*/
+    .About {
+    justify-content: flex-end;
+    }
+
+    .mail{
+      flex-grow: 2;
+    }
 
   .about-content, .mail{
   font-size: 5vw;
-}
+  }
+
 }

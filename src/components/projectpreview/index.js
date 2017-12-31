@@ -10,7 +10,7 @@ export default class ProjectPreview extends React.Component {
       <Link to={`/projects/${this.props.url}`} className="ProjectPreview">
         <div className="inner">
           <h1>{this.props.name}</h1>
-          <p>{this.props.description}</p>
+          <p>{this.props.description} </p>
           <div className="image">
             <img src={this.props.image} alt="" />
           </div>
