@@ -3,7 +3,6 @@ import { BrowserRouter, Route } from "react-router-dom"
 import Navbutton from "./navbutton"
 import Navigation from "./navigation"
 import About from "./about"
-import Start from "./start"
 import Startimage from "./startimage"
 import Category from "./category"
 
