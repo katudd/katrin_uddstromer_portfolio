@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom"
 import Navbutton from "./navbutton"
 import Navigation from "./navigation"
 import About from "./about"
-// import Start from "./start"
+import Start from "./start"
 import Startimage from "./startimage"
 import Category from "./category"
 
@@ -28,7 +28,7 @@ class App extends React.Component {
             {/* <ProjectPage /> */}
 
             {/* <Route path="/" exact component={Start} /> */}
-            {/* <Route path="/" exact component={Startimage} /> */}
+            <Route path="/" exact component={Startimage} />
             <Route path="/navigation" component={Navigation} />
             <Route path="/category" component={Category} />
             <Route path="/about" component={About} />
