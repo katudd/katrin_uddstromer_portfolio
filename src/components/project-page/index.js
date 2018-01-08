@@ -31,11 +31,15 @@ export default class ProjectPage extends React.Component {
         <div className="project-wrapper">
 
           <div>
+            <h4>{this.state.project.technical}</h4>
             <p>{this.state.project.longdescription}<span className="dot"> &#x263b;</span></p>
+            {/* <a href="{this.state.project.link}" target="_blank" /></p> */}
           </div>
-
           <div className="image">
-            <img src={this.state.project.image} alt="screenshot cssgrid" />
+            <img src={this.state.project.image2} alt=" " />
+          </div>
+          <div className="image">
+            <img src={this.state.project.image} alt=" " />
           </div>
 
         </div>

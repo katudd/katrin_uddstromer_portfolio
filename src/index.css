@@ -39,11 +39,17 @@ h2{
   font-size: 3em;
 }
 
+h4{
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
 
 p{
   font-weight: regular;
-  font-size: 1em;
-  line-height: 1.7em;
+  font-size: 1.2em;
+  line-height: 1.7;
 }
 
 ul {
