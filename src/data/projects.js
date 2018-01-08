@@ -81,5 +81,14 @@ export default [
     category: "code",
     image: "/images/habit_tracker_mockup.png",
     image2: "/images/habit_tracker_screens.png"
+  }, {
+    id: "womsy-mobile-web",
+    name: "Womsy Mobile Web",
+    technical: "Sketch, Invision",
+    shortdescription: "Design and UX prototyp for Womsy.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "code",
+    image: "/images/Womsy_mockup.png",
+    image2: "/images/womsy_screens.jpg"
   }
 ]
