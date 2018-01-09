@@ -1,5 +1,5 @@
 .About {
-  background-color: #8B1D5F;
+  background-color: #0770DD;
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -113,7 +113,7 @@ margin-top: 10%;
     }
 
   .about-content, .mail{
-  font-size: 4.5vw;
+  font-size: 4vw;
   }
 
 }

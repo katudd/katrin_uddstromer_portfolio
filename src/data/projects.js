@@ -56,7 +56,7 @@ export default [
   }, {
     id: "cookie-calendar",
     name: "Online Calendar",
-    shortdescription: "Online cookie calendar revealing one recepie per day!",
+    shortdescription: "Cookie calendar revealing one recepie per day!",
     longdescription: "The idea of this project was to create a page which looks super christmasey and festive. When a visitor lands on the page, they'll see 24 windows. Each day, a new window is opened and the visitor can click through to see a recepie. The project was done in cooperation with Kivra, a company mad about cookies. During the project I mainly worked with design, grid and animation.",
     link: "https://sv.wikipedia.org/wiki/Helvetica",
     category: "code",
@@ -76,7 +76,7 @@ export default [
     id: "habit-tracker",
     name: "Habit Tracker",
     technical: "React",
-    shortdescription: "FAQ accordion in Javascript.",
+    shortdescription: "Track your habits in mobile web.",
     longdescription: "Example of a basic FAQ-accordion built in Javascrip, inspired by SATS. The requirements was to toggle the icon and section title to expand and collapse the description.",
     category: "code",
     image: "/images/habit_tracker_mockup.png",
@@ -87,8 +87,17 @@ export default [
     technical: "Sketch, Invision",
     shortdescription: "Design and UX prototyp for Womsy.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
-    category: "code",
+    category: "design",
     image: "/images/Womsy_mockup.png",
     image2: "/images/womsy_screens.jpg"
+  }, {
+    id: "magazine",
+    name: "OM Magasin",
+    technical: "InDesign",
+    shortdescription: "Customer magazine for TRR.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "design",
+    image: "/images/OM_Mohammadi_cover.jpg",
+    image2: "/images/OM_Mohammadi_pages.png"
   }
 ]

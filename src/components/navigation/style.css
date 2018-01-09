@@ -9,10 +9,10 @@
 
 ul{
   font-weight: regular;
+  /*font-weight: bold;*/
   font-size: 2em;
   line-height: 2.8em;
   text-align: center;
-
 }
 
 .Navigation a {

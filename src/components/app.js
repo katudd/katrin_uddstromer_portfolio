@@ -29,7 +29,7 @@ class App extends React.Component {
             {/* <Route path="/" exact component={Start} /> */}
             <Route path="/" exact component={Startimage} />
             <Route path="/navigation" component={Navigation} />
-            <Route path="/category" component={Category} />
+            <Route path="/category/:name" component={Category} />
             <Route path="/about" component={About} />
             {/* <Route path="/projectpreview" component={ProjectPreview} /> */}
             <Route path="/projects/:id" component={ProjectPage} />
