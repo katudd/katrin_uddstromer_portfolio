@@ -99,5 +99,23 @@ export default [
     category: "design",
     image: "/images/OM_Mohammadi_cover.jpg",
     image2: "/images/OM_Mohammadi_pages.png"
+  }, {
+    id: "magazine",
+    name: "OM Magasin",
+    technical: "InDesign",
+    shortdescription: "Customer magazine for TRR.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "design",
+    image: "/images/OM_Mohammadi_cover.jpg",
+    image2: "/images/OM_Mohammadi_pages.png"
+  }, {
+    id: "algorithms",
+    name: "Algorithms",
+    technical: "Photoshop, Illustrator, InDesign",
+    shortdescription: "Editorial illustration for article about algorithms.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "illustration",
+    image: "/images/OM_Mohammadi_cover.jpg",
+    image2: "/images/OM_Mohammadi_pages.png"
   }
 ]
