@@ -15,8 +15,8 @@ export default class About extends React.Component {
         <a className="mail" href="mailto:katrin@uddstromer.se">katrin@uddstromer.se</a>
 
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/katrinuddstromer/" target="_blank" className="fa fa-linkedin" />
-          <a href="https://github.com/katudd" target="_blank" className="fa fa-github" />
+          <a href="https://www.linkedin.com/in/katrinuddstromer/" target="_blank" rel="noopener noreferrer" className="fa fa-linkedin" />
+          <a href="https://github.com/katudd" target="_blank" rel="noopener noreferrer" className="fa fa-github" />
         </div>
       </div>
 
