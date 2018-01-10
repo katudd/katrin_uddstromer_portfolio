@@ -115,7 +115,25 @@ export default [
     shortdescription: "Editorial illustration for article about algorithms.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
     category: "illustration",
-    image: "/images/OM_Mohammadi_cover.jpg",
-    image2: "/images/OM_Mohammadi_pages.png"
+    image: "/images/algorithms_2.png",
+    image2: "/images/algorithms_1.png"
+  }, {
+    id: "photo-montage",
+    name: "Photo Montage",
+    technical: "Photoshop, Illustrator, InDesign",
+    shortdescription: "Editorial illustration for article about algorithms.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "illustration",
+    image: "/images/photo_montage_1.png",
+    image2: "/images/photo_montage_2.png"
+  }, {
+    id: "photo-montage",
+    name: "Photo Montage",
+    technical: "Photoshop, Illustrator, InDesign",
+    shortdescription: "Editorial illustration for article about algorithms.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    category: "illustration",
+    image: "/images/photo_montage_1.png",
+    image2: "/images/photo_montage_2.png"
   }
 ]
