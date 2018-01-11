@@ -69,8 +69,8 @@ export default [
     name: "FAQ Accordion",
     technical: "Javascript, html & css",
     shortdescription: "FAQ accordion in Javascript.",
-    link: "https://katudd.github.io/accordion/",
     longdescription: "Example of a basic FAQ-accordion built in Javascrip, inspired by SATS. The requirements was to toggle the icon and section title to expand and collapse the description.",
+    link: "https://katudd.github.io/accordion/",
     category: "code",
     image: "/images/accordion_desktop.png",
     image2: "/images/accordion_mobile.png"
@@ -96,7 +96,7 @@ export default [
     id: "magazine",
     name: "OM Magasin",
     technical: "InDesign",
-    shortdescription: "Customer magazine for TRR.",
+    shortdescription: "Customer magazine for TRR Trygghetsrådet.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
     category: "design",
     image: "/images/OM_Mohammadi_cover.jpg",
@@ -107,7 +107,7 @@ export default [
     technical: "Photoshop, Illustrator, InDesign",
     shortdescription: "Editorial illustration for article about algorithms.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
-    category: "illustration",
+    category: "design",
     image: "/images/algorithms_2.png",
     image2: "/images/algorithms_1.png"
   }, {
@@ -120,11 +120,22 @@ export default [
     image: "/images/photo_montage_1.png",
     image2: "/images/photo_montage_2.png"
   }, {
-    id: "photo-montage",
-    name: "Photo Montage",
-    technical: "Photoshop, Illustrator, InDesign",
+    id: "social-video",
+    name: "Social Video",
+    technical: "AfterEffects, MediaEncoder, Photoshop, Illustrator",
     shortdescription: "Editorial illustration for article about algorithms.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    link: "https://vimeo.com/250640193",
+    category: "design",
+    image: "/images/photo_montage_1.png",
+    image2: "/images/photo_montage_2.png"
+  }, {
+    id: "tutorial",
+    name: "Tutorial",
+    technical: "AfterEffects, MediaEncoder, Photoshop",
+    shortdescription: "Editorial illustration for article about algorithms.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    link: "https://vimeo.com/250643150",
     category: "design",
     image: "/images/photo_montage_1.png",
     image2: "/images/photo_montage_2.png"
